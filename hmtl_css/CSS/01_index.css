@@ -1,0 +1,8 @@
+body{/* Pour les textes type paragraphe*/
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{/* Pour les titres*/
+    font-family: font-family: 'Zen Antique Soft', serif;
+
+}
