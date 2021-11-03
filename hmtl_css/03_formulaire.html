@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire HTML</title>
+    <link rel="stylesheet" href="css/03_formulaire.css">
+</head>
+<body>
+    <form>
+        <!-- il y a deux manière d'organiser ses champs-->
+        <label>
+            Pseudonyme
+            <input type="text" id="pseudo" placeholder="exemple" required/>
+            <!--Type précise me type de donnée, id sert à utiliser la donnée avec d'autre langages, planceholder contient le texte qui apparait dans l'input, required précise aux navigateur que le champs est obligatoire-->
+        </label>
+        <br>
+        <label>
+            Mot de passe <span title="le mot de passe peut contenir..."></span> 
+            <label>
+            <input type="password" placeholder="Mot de passe" required>
+
+            <label> Email</label>
+            <input type="email" placeholder="test@test">
+
+            <br>
+
+
+            <label for="photo">photo</label>
+            <input type="file" id="photo">
+
+            <br>
+
+            <fieldset>
+                <legend>choix multiple</legend>
+
+                <label> Quelle destination choisissez-vous ? </label>
+            <p>
+                <input type="checkbox" name= "reponse 1_1">Italie
+                <input type="checkbox" name= "reponse 2_1">Tunisie
+                <input type="checkbox" name= "reponse 3_1">Espagne
+            </p>
+
+            <label> Qui seront vos accompagnateurs ?</label>
+            <p>
+                <input type="radio" name="reponse1_2"> En famille
+                <input type="radio" name="reponse1_2">Entre amis
+                <input type="radio" name="reponse1_2"> En solo
+            </p>
+        </fieldset>
+
+        <label>Commentaires </label>
+        <textarea cols="80" rows="8"></textarea>
+
+        <input type="submit" value="Envoyer">
+
+        <input type="reset" value="Annuler"
+
+
+
+    </form>
+
+    
+</body>
+</html>

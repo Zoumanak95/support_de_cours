@@ -1,0 +1,9 @@
+label{
+    width: 190px; /* = largeur*/
+    color: blue;
+    background-color: lightgray;
+}
+body{
+    background-color:gainsboro;
+    color: chocolate;
+}
