@@ -52,7 +52,74 @@
         </div>
         <center><img src="img/em4.png" alt=""></center>
     
-    
-    </section>
+        <div>
+            <h3>Grouper des éléments multiples : "()"</h3>
+            <code>ul>(header>ul>li*2>a)+footer>p</code>
+            <br>
+            <code>ul>(li>p+img+a)+li*2>p+img</code>
+            <p>Résultat :</p>
+            <center><img src="img/em5.png" alt=""></center>
+        </div>
+
+        <div>
+            <h3>Inserer du texte dans un élément : "{"</h3>
+            <code>a{click me}</code>
+            <br>
+            <code>p>{click}+a{here}+{to continue}</code>
+            <p>Résultats :</p>
+        </div>
+        <center><img src="img/em6.png" alt=""></center>
+
+        <div>
+            <h3>Ajouter une numérotation : "$"</h3>
+            <code>ul>li.item$*5</code>
+            <p>Résultat :</p>
+        </div>
+        <center><img src="img/em7.png" alt=""></center>
+
+        <div>
+            <h3>Commencer la numérotation au chiffre voulu: "$@n"</h3>
+            <code>ul>li.item@3*5</code>
+            <p>Résultat</p>
+        </div>
+        <center><img src="img/em8.png" alt=""></center>
+
+        <div>
+            <h3>Numéroter dans l'ordre décroissant: "$@-"</h3>
+            <code>ul>li.item$@-{pizza $@-}*5</code>
+            <p>Résultat :</p>
+        </div>
+        <center><img src="img/em9.png" alt=""></center>
+
+        <div>
+            <h3>Remonter d'un élément enfant : "^"</h3>
+            <code>div>p>em{hello}^a</code>
+            <p>Résultat:</p>
+        </div>
+        <center><img src="img/em10.png" alt=""></center>
+
+        <div>
+            <h3>Ajouter un attribut:"[attre_name="valeur"]"</h3>
+            <code>img[src="http://placecage.com/300/300" alt="nicCage"</code>
+            <p>Résultat:</p>
+        </div>
+        <center><img src="img/em11.png" alt=""></center>
+
+        <div>
+            <h3>En bref</h3>
+            <code>div.clist>ul(li.item$>p{paragraphe $}+img[src="http://placecage.com/300/300"])+li.item$2*4>p{paragraphe $@2}+img[src"http://placesheen.com/$@1$$/$@5$$"]a^^^footer>p{Placecage vs PlaceSheen}</code>
+            <p>Résultat:</p>
+        </div>
+        <center><img src="img/em12.png" alt=""></center>
+        
+        
+        <h2 id="css">CSS</h2>
+        <div>
+            <p>Quelques raccourcis courants :</p>
+        </div>
+        <center><img src="img/em13.png" alt=""></center>
+
+        </section>
+
 </body>
 </html>
