@@ -1,0 +1,13 @@
+h1, h2, div, a, p, span, section{
+    text-align: center;
+    border: 1px solid orchid;
+    background-color: paleturquoise;
+}
+
+.block{
+    display: block; /* on modifie l'affichage de la balise pour qu'elle deviene de type BLOCK*/
+}
+.inline{
+    display: inline; /* on modifie l'affichage de la balise pour qu'elle deviene de type INLINE*/
+}
+
