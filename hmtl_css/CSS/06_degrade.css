@@ -1,0 +1,16 @@
+.contenu{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50%;/* arrondies les angles*/
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 0%, rgba(89,123,222,1) 0%, rgba(0,212,255,1) 72%, rgba(8,39,141,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 0%, rgba(89,123,222,1) 0%, rgba(0,212,255,1) 72%, rgba(8,39,141,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,45,121,1) 0%, rgba(89,123,222,1) 0%, rgba(0,212,255,1) 72%, rgba(8,39,141,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#08278d",GradientType=1);  /* va de droite à gauche : bleu ciel à gauche et bleu à droite*/
+}
+
+
+
+
+
