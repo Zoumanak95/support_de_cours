@@ -1,0 +1,32 @@
+/*
+ Media queries servent à faire d'une feuille de style un style adaptable à un petit écran/ecran.
+ On appel breackpoint les valeurs auxquelles le design casse.
+ On peut vérifier les tailles de navaigateur sur viewportsize.com
+ Cette page est conçu avec l'approche "mobile-fisrt"
+ */
+ .zone-adaptative{
+     background-color: red;
+     color: white;
+     padding: 10px;
+ } 
+
+@media ( min-width: 768px){
+    .zone-adaptative{
+        background-color: orange;
+        width: 750px;
+    }
+}
+
+@media ( min-width: 992px){
+    .zone-adaptative{
+        width: 970px;
+        background-color: blue;
+    }
+}
+@media ( min-width: 1200px){
+    .zone-adaptative{
+        width: 1170px;
+        background-color: green;
+    }
+}
+
