@@ -1,0 +1,101 @@
+body{
+    margin: 0; /* en haut à droite, en bas et à gauche*/
+}
+
+.boite{
+    height: 10vh; /* Par rapport à la hauteur de l'écran*/
+    width: 7vw;/* Par rapport à la largeur de l'écran*/
+    padding: 5vh;
+    background-image: url(../IMG/rao.jfif);
+    background-size: cover; /* étire l'iamge pour qu'elle rentre dans la balise*/
+    border: 2px solid black;
+    margin: 2vh;
+    float: left; /* effet flottant, ça sort les éléments du flux naturel de la page et les places les uns à coté des autres */
+    transition: margin 0.5s; /* augmente le margine en 0.5s grâce à :hover */
+    border-radius: 20%;
+    text-align: center;
+    
+
+}
+
+.boite:hover{ /* pseudo-class qui applique un effet au survol de la souris*/
+    margin-top: 10vh;
+}
+
+.clear{
+    clear:both; /*suupprime l'effet flottantes deux côté*/
+}
+
+
+
+.carre_vert{
+    background-color: green;
+    border: 1px solid;
+    margin: 1px;
+    height:10vh;
+    width: 5vw;
+    border-radius:10% 20% 30% 40%;
+    float: left;
+    text-align: center;
+}
+
+.carre_bleu{
+    background-color: lightskyblue;
+    border: 1px solid;
+    margin: 1px;
+    height:10vh;
+    width: 5vw;
+    border-radius:30% 1% 30% 2%;
+    float: left;
+    text-align: center;
+}
+
+.carre_saumon{
+    background-color:salmon;
+    border: 1px solid;
+    margin: 1px;
+    height:10vh;
+    width: 5vw;
+    border-radius:5% 40% 5% 40%;
+    float: left;
+    text-align: center;
+}
+
+.rond_vert{
+    background-color: lightgreen;
+    border: 1px solid;
+    margin: 1px;
+    height:10vh;
+    width: 5vw;
+    border-radius:50%;
+    float: left;
+    text-align: center;
+}
+.carre_rouge{
+    background-color: red;
+    border: 1px solid;
+    margin: 1px;
+    height:10vh;
+    width: 5vw;
+    border-radius:5% 40% 5% 40%;
+    float: left;
+    text-align: center;
+
+}
+
+.boite{
+    border: 0.1px;
+    height: 0.1px;
+    width: 0.1px;
+    margin: 0;
+    
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid blue;
+    height: 100%;
+    width: 100%; 
+}
+
+
+

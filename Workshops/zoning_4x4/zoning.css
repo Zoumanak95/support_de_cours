@@ -1,0 +1,499 @@
+
+body{
+
+    font-size: 25px;
+}
+
+
+
+
+p{
+    line-height: 100px;
+}
+
+#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    background-color: turquoise;
+    text-align: center;
+
+
+}
+header{
+    background-color: rgb(182, 142, 83);
+
+    height: 100px;
+    color: white;
+}
+
+
+nav{
+
+
+   background-color: grey;
+
+    height: 30px;
+    color: white;
+}
+
+
+
+
+section{
+    height: 30%;
+    margin: 20px;
+    color: white;
+
+}
+
+
+
+
+footer{
+
+    background: rgb(126, 126, 126);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c6f8cb",endColorstr="#2a5968",GradientType=1);
+
+    height: 100px;
+}
+
+
+
+
+ 
+
+
+
+
+.a, .b, .c, .d{
+
+
+
+
+    width: 25%;
+
+
+
+
+    height: 125px;
+
+
+
+
+    float: left;
+
+
+
+
+    display: block;
+
+
+
+
+    text-align: center;
+    
+}
+
+
+
+
+ 
+
+
+
+
+.a{
+
+
+
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.b{
+
+
+
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.c{
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.d{
+
+
+
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+ 
+
+
+
+
+.e, .f, .g, .h{
+
+
+
+
+    width: 24.5%;
+
+
+
+
+    height: 125px;
+
+
+
+
+    float: right;
+
+
+
+
+    text-align: center;
+
+
+
+
+    margin-top: -126px;
+
+
+
+
+}
+
+
+
+
+ 
+
+
+
+
+.e{
+
+
+
+
+    background-color: rgb(104, 173, 194);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.f{
+
+
+
+
+    background-color: rgb(104, 173, 194);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.g{
+
+
+
+
+    background-color: rgb(104, 173, 194);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.h{
+
+
+
+
+    background-color: rgb(104, 173, 194);
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+ 
+
+
+
+
+.i, .j, .k, .l{
+
+
+
+
+    width: 25%;
+
+
+
+
+    height: 125px;
+
+
+
+
+    float: left;
+
+
+
+
+    text-align: center;
+
+
+
+
+}
+
+
+
+
+ 
+
+
+
+
+.i{
+
+
+
+
+    background-color: rgb(66,104,116);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.j{
+
+
+
+
+    background-color: rgb(66,104,116);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.k{
+
+
+
+
+    background-color: rgb(66,104,116);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+
+
+
+.l{
+
+
+
+
+    background-color: rgb(66,104,116);
+
+
+
+
+    border: 1px solid
+white;
+
+
+
+
+}
+
+.m, .n, .o, .p{
+
+    width: 24.5%;
+    height: 125px;
+
+    float: right;
+    text-align: center;
+    margin-top: -125px;
+    
+}
+
+.m{
+    background-color: rgb(228,192,139);
+    border: 1px solid white; 
+}
+
+
+.n{
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+    border: 1px solid
+white;
+
+
+}
+
+
+.o{
+
+
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+    border: 1px solid
+white;
+
+}
+
+.p{
+
+    background-color: rgb(228, 192, 139)
+    ;
+
+    border: 1px solid
+white;
+
+
+}
+
+
+.clear{
+
+    clear: both;
+
+}
+
+footer{
+    background-color: grey;
+    color: white;
+}
