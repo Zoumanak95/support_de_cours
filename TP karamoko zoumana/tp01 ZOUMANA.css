@@ -1,0 +1,27 @@
+
+body{
+    background-color: #a0c4b6
+    
+}
+
+li{
+   display: inline;
+   font-family:'Caveat Brush', cursive
+}
+
+div{
+    float: left;
+}
+
+div2{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+h1, div, footer{
+    font-family: 'Caveat Brush', cursive;
+}
+  
