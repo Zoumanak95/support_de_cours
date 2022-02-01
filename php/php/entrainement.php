@@ -892,6 +892,39 @@ echo "<button type='submit' class='btn btn-primary'><a class='text-light' href='
     <button class='btn btn-primary my-2'><a class='text-light' href='pageCookie.php' target='_blank'>Aller vers la page des sessions</a></button>
 </div>
 
+<?php
+
+// Chapitre 16 PDO(PHP DATA OBJECT) et requete SQL
+
+// PDD, PHP DATA OBJECT et une surcouche d'abstraction liée à PHP. Elle permet l'intercation avec la base de données.
+
+// connexion à la BDD
+// Pour me relier à l a BDD, je dois au préalable crée un objet de ma clase PDO, pour pouvoir bénéficier de ses propriétées/attributs et méthodes prédéfinies
+// En local, c'est à dire que mon projet n'est oas encore en ligne, pour me connecter à ma BDD je vais devoir générer une syntaxe assez normée, rigide, figée.
+
+// En local, le host sera = à localhost, le dbuser à root et le dbpassword(mot de passe) = à '' (simple quotes vides, sans rien à l'intérieur même pas un espace). Seul dbname(après localhost) pourra varier. Il doit acceuillir le nom de votre BDD (qui pourra donc changer selon celle vers laquelle vous voulez vous connecter).
+$pdo = new PDO('mysql:host=localhost;dbname=voiture', 'root', '', array(
+    // Je décide ici du mode d'erreur que je veux que php m'envoie (cas d'erreur dans mon code)
+    PDO:: ATTR_ERRMODE =>PDO::ERRMODE_WARNING,
+    // Je décide du mode d'encodage des caractères vers la BDD (similaire a celui dans le DOCTYPE HTML)
+    // Le type d'encodage UTF8 est celui qui permet de lire les caractères spéciaux des différents alphabets
+    PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'
+));
+
+// get_class_methods me permet de visualiser les différentes méthodes prédéfinies de ma calsse PDO, qui seront utilisablesn pretes à l'emploi
+
+echo "<pre>"; print_r(get_class_methods($pdo));  echo "</pre>";
+// Je selectionne dans ma BDD, à la table vehicule, toutes les valeurs du véhicules dont le title sera égal à Renault
+$afficheVehicules = $pdo ->query("SELECT * FROM vehicule WHERE title = 'Renault'");
+//  Le var_dump de $afficheVehicule m'indique que c'est un objet de la classe PDOStatement.
+// PDOStatement est direcment liée à la class PFO. Elle intervient dès que la requete SELECT est entamée 
+echo "<pre>"; var_dump ($afficheVehicules); echo "</pre>";
+
+// Même si c'est possible de faire des INSERT INTO, UPDATE ou DELETE avec la méthode Query, il faut l'utiliser seulement pour le SELECT.
+// Si je dois modifier ma BDD (avec instertion, modification ou suppression, il faudra faire une requete préparée avec preapre ())
+
+?>
+
 
 
 
